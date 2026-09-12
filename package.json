@@ -1,8 +1,8 @@
 {
   "name": "smart-adhkar-web",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "private": true,
-  "description": "Smart Adhkar Arabic PWA - verified adhkar, weekly reports, monthly achievement calendar, shareable progress cards, smart daily goals, reminders, Arabic audio and advanced tasbeeh",
+  "description": "Smart Adhkar Arabic PWA - unified today dashboard, extended 30/90/365-day insights, full local backup and restore, verified adhkar, Arabic audio, advanced tasbeeh, goals, reminders and reports",
   "scripts": {"start":"node server.js"},
   "engines": {"node": ">=20"}
 }

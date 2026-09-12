@@ -1,0 +1,12 @@
+{
+  "name":"سمارت أذكار | Smart Adhkar",
+  "short_name":"سمارت أذكار",
+  "lang":"ar",
+  "dir":"rtl",
+  "start_url":"/",
+  "display":"standalone",
+  "background_color":"#071d18",
+  "theme_color":"#0c6b58",
+  "description":"أذكار موثقة، أوراد يومية، مسبحة ذكية ومصادر شرعية واضحة.",
+  "icons":[{"src":"/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "smart-adhkar-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Smart Adhkar Arabic PWA - verified adhkar library and routines",
+  "scripts": {"start":"node server.js"},
+  "engines": {"node": ">=20"}
+}

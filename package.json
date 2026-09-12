@@ -1,8 +1,8 @@
 {
   "name": "smart-adhkar-web",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": true,
-  "description": "Smart Adhkar Arabic PWA - verified adhkar library, routines, favorites, stats and local backup",
+  "description": "Smart Adhkar Arabic PWA - verified adhkar, Arabic audio controls, advanced tasbeeh, routines, favorites and stats",
   "scripts": {"start":"node server.js"},
   "engines": {"node": ">=20"}
 }

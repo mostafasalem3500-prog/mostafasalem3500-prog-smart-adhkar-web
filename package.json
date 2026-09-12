@@ -1,8 +1,8 @@
 {
   "name": "smart-adhkar-web",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "private": true,
-  "description": "Smart Adhkar Arabic PWA - verified adhkar, smart daily goals, local reminders, Arabic audio, advanced tasbeeh insights and routines",
+  "description": "Smart Adhkar Arabic PWA - verified adhkar, weekly reports, monthly achievement calendar, shareable progress cards, smart daily goals, reminders, Arabic audio and advanced tasbeeh",
   "scripts": {"start":"node server.js"},
   "engines": {"node": ">=20"}
 }

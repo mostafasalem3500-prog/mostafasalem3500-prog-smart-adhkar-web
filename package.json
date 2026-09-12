@@ -1,8 +1,8 @@
 {
   "name": "smart-adhkar-web",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "private": true,
-  "description": "Smart Adhkar Arabic PWA - local-day tracking, smart daily plan, human-first Arabic audio, faster library filters, PWA status, accessibility, advanced tasbeeh and verified adhkar",
+  "description": "Smart Adhkar Arabic PWA - personal daily routine, resumable focus sessions, clearer daily progress, mobile focus controls, Arabic audio and verified adhkar",
   "scripts": {"start":"node server.js"},
   "engines": {"node": ">=20"}
 }

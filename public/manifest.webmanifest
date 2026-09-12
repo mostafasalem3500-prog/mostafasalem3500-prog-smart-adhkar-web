@@ -4,9 +4,17 @@
   "lang":"ar",
   "dir":"rtl",
   "start_url":"/",
+  "scope":"/",
   "display":"standalone",
+  "display_override":["window-controls-overlay","standalone","minimal-ui"],
   "background_color":"#071d18",
   "theme_color":"#0c6b58",
-  "description":"أذكار موثقة، أوراد يومية، مسبحة ذكية ومصادر شرعية واضحة.",
-  "icons":[{"src":"/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+  "description":"أذكار موثقة، ورد اليوم، مسبحة ذكية، صوت عربي، تقارير تقدم ومصادر شرعية واضحة.",
+  "categories":["lifestyle","education","utilities"],
+  "icons":[{"src":"/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}],
+  "shortcuts":[
+    {"name":"الأذكار","short_name":"الأذكار","url":"/?view=library","icons":[{"src":"/icon.svg","sizes":"any","type":"image/svg+xml"}]},
+    {"name":"المسبحة","short_name":"المسبحة","url":"/?view=tasbeeh","icons":[{"src":"/icon.svg","sizes":"any","type":"image/svg+xml"}]},
+    {"name":"الإحصائيات","short_name":"التقدم","url":"/?view=stats","icons":[{"src":"/icon.svg","sizes":"any","type":"image/svg+xml"}]}
+  ]
 }

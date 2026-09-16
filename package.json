@@ -1,8 +1,8 @@
 {
-  "name": "smart-adhkar-web",
-  "version": "2.2.0",
-  "private": true,
-  "description": "Smart Adhkar Arabic PWA - stabilized single enhancement layer, verified adhkar, daily routines, smart tasbeeh, human-first audio and secure Google Gemini TTS backend",
-  "scripts": {"start":"node server.js"},
-  "engines": {"node": ">=20"}
+  "name":"smart-adhkar-web",
+  "version":"2.3.0",
+  "private":true,
+  "description":"Smart Adhkar Arabic PWA - trusted-source content, refreshed Arabic visual identity, Quran-specific presentation, daily routines and smart tasbeeh; audio temporarily disabled",
+  "scripts":{"start":"node server.js"},
+  "engines":{"node":">=20"}
 }

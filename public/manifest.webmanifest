@@ -7,14 +7,14 @@
   "scope":"/",
   "display":"standalone",
   "display_override":["window-controls-overlay","standalone","minimal-ui"],
-  "background_color":"#071d18",
-  "theme_color":"#0c6b58",
-  "description":"أذكار موثقة، ورد اليوم، مسبحة ذكية، صوت عربي، تقارير تقدم ومصادر شرعية واضحة.",
+  "background_color":"#f7f5ef",
+  "theme_color":"#0f5f50",
+  "description":"أذكار موثقة بمصادر واضحة، نصوص قرآنية مرجعية من مجمع الملك فهد، أوراد يومية ومسبحة ذكية. الصوت متوقف مؤقتًا.",
   "categories":["lifestyle","education","utilities"],
   "icons":[{"src":"/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}],
   "shortcuts":[
     {"name":"الأذكار","short_name":"الأذكار","url":"/?view=library","icons":[{"src":"/icon.svg","sizes":"any","type":"image/svg+xml"}]},
     {"name":"المسبحة","short_name":"المسبحة","url":"/?view=tasbeeh","icons":[{"src":"/icon.svg","sizes":"any","type":"image/svg+xml"}]},
-    {"name":"الإحصائيات","short_name":"التقدم","url":"/?view=stats","icons":[{"src":"/icon.svg","sizes":"any","type":"image/svg+xml"}]}
+    {"name":"المصادر","short_name":"المصادر","url":"/?view=sources","icons":[{"src":"/icon.svg","sizes":"any","type":"image/svg+xml"}]}
   ]
 }

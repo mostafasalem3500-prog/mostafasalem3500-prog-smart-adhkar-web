@@ -7,9 +7,9 @@
   "scope":"/",
   "display":"standalone",
   "display_override":["window-controls-overlay","standalone","minimal-ui"],
-  "background_color":"#f7f5ef",
-  "theme_color":"#0f5f50",
-  "description":"أذكار موثقة بمصادر واضحة، نصوص قرآنية مرجعية من مجمع الملك فهد، أوراد يومية ومسبحة ذكية. الصوت متوقف مؤقتًا.",
+  "background_color":"#faf8f2",
+  "theme_color":"#126553",
+  "description":"أذكار موثقة بمصادر واضحة، نصوص قرآنية مرجعية من مجمع الملك فهد، أوراد يومية، وضع قراءة ومسبحة ذكية.",
   "categories":["lifestyle","education","utilities"],
   "icons":[{"src":"/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}],
   "shortcuts":[

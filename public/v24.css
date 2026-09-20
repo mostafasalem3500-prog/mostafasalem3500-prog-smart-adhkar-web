@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Noto+Kufi+Arabic:wght@400;500;600;700;800&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap');
+:root{--v24-forest:#103f35;--v24-emerald:#126553;--v24-emerald2:#1a7562;--v24-gold:#c8a85c;--v24-cream:#fbf8f0;--v24-paper:#fffdfa;--v24-ink:#18332b;--v24-muted:#6e7c76;--v24-line:#e5e1d6;--v24-shadow:0 18px 55px rgba(24,55,45,.08)}
+body.v24-identity{font-family:'Noto Naskh Arabic','Segoe UI',Tahoma,Arial,sans-serif;background:radial-gradient(circle at 85% 0,rgba(18,101,83,.08),transparent 28%),linear-gradient(180deg,#faf8f2 0,#f0f5f1 48%,#faf8f2 100%);color:var(--text)}
+body.v24-identity .brand strong,body.v24-identity h1,body.v24-identity h2,body.v24-identity h3,body.v24-identity button,body.v24-identity nav{font-family:'Noto Kufi Arabic','Segoe UI',Tahoma,sans-serif}
+body.v24-identity .topbar{height:72px;background:rgba(250,248,242,.88);border-bottom:1px solid rgba(16,63,53,.08);box-shadow:0 10px 35px rgba(23,56,47,.05)}
+body.v24-identity .brand img{width:42px;height:42px;border-radius:14px;box-shadow:0 8px 24px rgba(18,101,83,.18)}
+body.v24-identity .topbar nav button{min-height:42px;font-size:12px;font-weight:600}
+body.v24-identity .topbar nav button.active{background:#eaf3ee;color:#0f6653}
+body.v24-identity main{max-width:1240px}
+body.v24-identity .hero{min-height:450px;padding:54px;border-radius:34px;background:radial-gradient(circle at 18% 8%,rgba(200,168,92,.19),transparent 28%),linear-gradient(135deg,#0b382f,#115d4d 58%,#18493f);box-shadow:0 30px 78px rgba(16,63,53,.18)}
+body.v24-identity .hero h1{font-weight:700;letter-spacing:-.8px;line-height:1.35}
+body.v24-identity .hero p{font-size:18px;line-height:2.05;max-width:640px}
+body.v24-identity .hero-card{border-radius:28px;background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.16)}
+body.v24-identity .primary{background:linear-gradient(135deg,#dec47f,#c4a253);color:#17332b;font-weight:800;box-shadow:0 9px 20px rgba(150,118,49,.18)}
+body.v24-identity .secondary{background:#faf8f2;border:1px solid rgba(16,63,53,.11);color:#164f43}
+body.v24-identity .routine-card,body.v24-identity .dhikr-card,body.v24-identity .source-grid a,body.v24-identity .focus-card,body.v24-identity .policy-card{border:1px solid rgba(16,63,53,.09);box-shadow:var(--v24-shadow);background:rgba(255,253,250,.94)}
+body.v24-identity .routine-card{transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}
+body.v24-identity .routine-card:hover{transform:translateY(-2px);box-shadow:0 20px 50px rgba(24,55,45,.1);border-color:rgba(18,101,83,.2)}
+body.v24-identity .dhikr-card{border-radius:26px;padding:26px;gap:14px;position:relative;overflow:hidden}
+body.v24-identity .dhikr-card:before{content:'';position:absolute;inset-inline-start:0;top:24px;bottom:24px;width:3px;border-radius:6px;background:#dceae3}
+body.v24-identity .dhikr-card h3{font-size:18px;line-height:1.7;color:#22483d}
+body.v24-identity .dhikr-card .text{font-size:21px;line-height:2.2;color:#1d332d}
+body.v24-identity .pill{font-family:'Noto Kufi Arabic',sans-serif;font-size:10px;font-weight:600;background:#edf4ef;color:#165c4e;padding:7px 10px}
+.v24-proof{display:flex;flex-direction:column;gap:4px;border-top:1px solid var(--v24-line);padding-top:14px}.v24-proof span{align-self:flex-start;font-family:'Noto Kufi Arabic',sans-serif;font-size:10px;font-weight:700;color:#0e6855;background:#e9f4ef;padding:5px 8px;border-radius:999px}.v24-proof strong{font-size:13px;color:#315148}.v24-proof small{font-size:12px;color:#78827d;line-height:1.65}.v24-proof.quran span{background:#f4ead0;color:#7a612b}.v24-proof.review span{background:#fff0e8;color:#a05c38}
+body.v24-identity .v24-quran{background:linear-gradient(180deg,#fffdf7,#fbf6e9);border-color:#dfcc95}
+body.v24-identity .v24-quran:before{width:4px;background:linear-gradient(#c8a85c,#ead9a2)}
+body.v24-identity .v24-quran h3{color:#124a3f}
+body.v24-identity .v24-quran-text{font-family:'KFGQPC Uthmanic Script HAFS','Amiri Quran','Noto Naskh Arabic',serif!important;font-size:26px!important;line-height:2.35!important;letter-spacing:0!important;text-align:center;color:#152f28!important;padding:10px 6px}
+.v24-routine-proof{margin-top:18px;text-align:right}.v24-routine-proof .v24-proof{border-top-style:dashed}
+.v24-source-link{font-family:'Noto Kufi Arabic',sans-serif!important;font-size:11px!important}
+.v24-assurance{margin:28px 0 6px;padding:28px;border:1px solid rgba(16,63,53,.1);border-radius:28px;background:rgba(255,255,255,.72);box-shadow:0 16px 48px rgba(35,66,56,.05)}.v24-assurance h2{margin:6px 0 8px}.v24-assurance p{margin:0;color:var(--v24-muted);line-height:1.9}.v24-kicker{font-family:'Noto Kufi Arabic',sans-serif;font-size:10px;font-weight:700;color:#9d7b36}.v24-assurance-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:20px}.v24-assurance-grid article{padding:18px;border-radius:18px;background:#f8f5ed;border:1px solid #ebe4d6}.v24-assurance-grid b{font-family:'Noto Kufi Arabic',sans-serif;font-size:10px;color:#a37f39}.v24-assurance-grid strong{display:block;margin:8px 0 3px;color:#24483e}.v24-assurance-grid small{color:#7a827e}
+.v24-filter-meta{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:10px}.v24-filter-meta>span{font-family:'Noto Kufi Arabic',sans-serif;font-size:10px;color:#6b7973}.v24-filter-meta>div{display:flex;gap:6px;overflow:auto}.v24-filter-meta button{border:1px solid #e1dfd6;background:#fffdfa;color:#607069;padding:7px 10px;border-radius:999px;font-size:10px;white-space:nowrap;cursor:pointer}.v24-filter-meta button.active{background:#145f50;color:white;border-color:#145f50}.v24-source-hidden{display:none!important}
+.v24-reading-btn{font-family:'Segoe UI',Tahoma,sans-serif!important;font-weight:700;font-size:13px!important}.v24-reading-btn.active{background:#0f6552!important;color:white!important}
+body.v24-reading .topbar nav,body.v24-reading .ambient,body.v24-reading .stats-strip,body.v24-reading .utility-grid{opacity:.28;transition:opacity .2s}.v24-reading .dhikr-card .text,.v24-reading #routineText{font-size:clamp(24px,3.2vw,32px)!important;line-height:2.35!important}.v24-reading .cards{grid-template-columns:1fr}.v24-reading .dhikr-card{max-width:900px;margin-inline:auto}
+.v24-tas-ring{--p:0%;width:min(400px,86vw);aspect-ratio:1;border-radius:50%;margin:28px auto;padding:10px;background:conic-gradient(#c8a85c var(--p),#e6ece8 0);position:relative}.v24-tas-ring:after{content:attr(data-progress);position:absolute;top:18px;left:50%;transform:translateX(-50%);font-family:'Noto Kufi Arabic',sans-serif;font-size:10px;color:#53645e}.v24-tas-ring .tap-counter{width:100%;margin:0;border:10px solid #f8faf8;box-shadow:0 24px 70px rgba(16,63,53,.18)}
+.v24-audio-off{background:#f5f1e6!important;border:1px dashed #d9cfad!important;box-shadow:none!important}.v24-audio-off h3{margin:5px 0}.v24-audio-off p{color:#747b77;line-height:1.85}
+body.v24-identity .filters{background:linear-gradient(180deg,rgba(250,248,242,.98),rgba(250,248,242,.9));border-bottom:1px solid rgba(16,63,53,.05)}
+body.v24-identity .filters input{font-family:'Noto Naskh Arabic',sans-serif;font-size:17px;background:#fffdfa;border-color:#e4e0d4}
+body.v24-identity .chips button{font-family:'Noto Kufi Arabic',sans-serif;font-size:10px}
+body.v24-identity :focus-visible{outline:3px solid rgba(200,168,92,.58);outline-offset:3px}
+body.v24-identity.dark{--v24-line:#2c4139}.dark.v24-identity .topbar{background:rgba(7,19,15,.92)}.dark.v24-identity .v24-assurance{background:#0f211b}.dark.v24-identity .v24-assurance-grid article{background:#13281f;border-color:#284339}.dark.v24-identity .v24-proof strong{color:#dbe8e2}.dark.v24-identity .v24-proof small{color:#a6b5ae}.dark.v24-identity .v24-quran{background:linear-gradient(180deg,#18241f,#1f271f);border-color:#6f613b}.dark.v24-identity .v24-quran-text{color:#f3edda!important}.dark.v24-identity .v24-filter-meta button{background:#13281f;border-color:#2a443a;color:#b5c1bc}.dark.v24-identity .v24-audio-off{background:#18231f!important;border-color:#665b3d!important}
+@media(max-width:850px){body.v24-identity .hero{padding:34px;border-radius:28px}.v24-assurance-grid{grid-template-columns:1fr}.v24-filter-meta{align-items:flex-start;flex-direction:column}.v24-filter-meta>div{width:100%}.v24-quran-text{font-size:24px!important}.v24-assurance{padding:21px}.dhikr-card{padding:22px!important}}
+@media(max-width:520px){body.v24-identity .hero h1{font-size:40px}.v24-assurance{border-radius:22px}.v24-reading .topbar nav{opacity:1}.v24-tas-ring{width:86vw}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}

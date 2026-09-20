@@ -1,8 +1,8 @@
 {
   "name":"smart-adhkar-web",
-  "version":"2.3.0",
+  "version":"2.4.0",
   "private":true,
-  "description":"Smart Adhkar Arabic PWA - trusted-source content, refreshed Arabic visual identity, Quran-specific presentation, daily routines and smart tasbeeh; audio temporarily disabled",
+  "description":"Smart Adhkar Arabic PWA - unified premium Arabic UI, trusted-source Quran and adhkar presentation, improved reading experience and smart tasbeeh; audio remains temporarily disabled",
   "scripts":{"start":"node server.js"},
   "engines":{"node":">=20"}
 }
